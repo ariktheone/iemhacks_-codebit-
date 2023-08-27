@@ -9,19 +9,22 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <section class="navbar top-nav">
         <div class="logo">
           <a href="/src/index.html">College Issues</a>
         </div>
-        <ul class="nav-links">
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu nav-links">
           <li><a href="/src/form.html">Confession</a></li>
+          <li><a href="/src/chatbox.html">Chatbox</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a href="/src/profile.html">Profile</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </nav>
-      <h1>Welcome to College Issues</h1>
-      <p>Share your concerns anonymously</p>
+      </section>
     </header>
 
     <section class="issue-form">

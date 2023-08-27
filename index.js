@@ -1,4 +1,3 @@
 $(".menu").click(function () {
-    $(this).toggleClass("menu-button");
-  });
-  
+  $(this).toggleClass("menu-button");
+});
