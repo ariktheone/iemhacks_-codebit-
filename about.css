@@ -1,0 +1,40 @@
+/* Reset some default styles */
+
+/* Basic styling */
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=DM+Serif+Display&family=Fjalla+One&family=Libre+Baskerville&family=Martian+Mono&family=Oswald&display=swap");
+body {
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* About Section styles */
+.about-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #007bff; /* Header color */
+}
+
+.about-section h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333; /* Sub-header color */
+}
+
+.about-section p {
+  margin-bottom: 15px;
+}
+
+/* Footer styles */
+
+/* Body Background */

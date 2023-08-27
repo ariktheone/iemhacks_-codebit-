@@ -1,34 +1,28 @@
 /* styles.css */
-
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=DM+Serif+Display&family=Fjalla+One&family=Libre+Baskerville&family=Martian+Mono&family=Oswald&display=swap");
 body {
   @import "https://www.nerdfonts.com/assets/css/webfont.css";
-  font-family: Arial, sans-serif;
+  font-family: "Chelsea Market", cursive;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: rgb(12, 4, 142);
-  background: -moz-radial-gradient(
-    circle,
-    rgba(12, 4, 142, 1) 0%,
-    rgba(40, 40, 167, 1) 37%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    rgba(12, 4, 142, 1) 0%,
-    rgba(40, 40, 167, 1) 37%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: rgb(2, 0, 36);
   background: radial-gradient(
     circle,
-    rgba(12, 4, 142, 1) 0%,
-    rgba(40, 40, 167, 1) 37%,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c048e",endColorstr="#00d4ff",GradientType=1);
+  background: rgb(0, 48, 82);
+  background: radial-gradient(
+    circle,
+    rgba(0, 48, 82, 1) 0%,
+    rgba(16, 56, 129, 1) 35%,
+    rgba(24, 174, 204, 1) 100%
+  );
   color: #f4f4f4;
   text-align: center;
   padding: 0 0;
@@ -172,7 +166,7 @@ header {
 }
 
 .navbar .logo a {
-  color: #f5f5f5;
+  color: #333;
   text-decoration: none;
   font-size: 32px;
   font-weight: bold;
@@ -195,7 +189,7 @@ header {
 }
 
 .navbar .nav-links li a:hover {
-  color: blue;
+  color: #007bff;
 }
 
 .hero-content {
@@ -222,51 +216,19 @@ header {
 .btn {
   display: inline-block;
   padding: 15px 30px;
-  background: rgb(251, 63, 213);
-  background: -moz-linear-gradient(
-    164deg,
-    rgba(251, 63, 213, 1) 6%,
-    rgba(70, 163, 252, 1) 81%
-  );
-  background: -webkit-linear-gradient(
-    164deg,
-    rgba(251, 63, 213, 1) 6%,
-    rgba(70, 163, 252, 1) 81%
-  );
-  background: linear-gradient(
-    164deg,
-    rgba(251, 63, 213, 1) 6%,
-    rgba(70, 163, 252, 1) 81%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb3fd5",endColorstr="#46a3fc",GradientType=1);
-  color: #fff;
+  background: linear-gradient(90deg, #fdbb2d 0%, #22c1c3 100%);
+  color: #f0f0f0;
   text-decoration: none;
   border-radius: 10px;
   margin: 0 20px;
   font-weight: bold;
   font-size: 20px;
-  transition: background-color 0.3s;
+  transition: background-color 0.5s ease;
 }
 
 .btn:hover {
-  background: rgb(217, 49, 183);
-  background: -moz-linear-gradient(
-    166deg,
-    rgba(217, 49, 183, 1) 6%,
-    rgba(48, 126, 201, 1) 81%
-  );
-  background: -webkit-linear-gradient(
-    166deg,
-    rgba(217, 49, 183, 1) 6%,
-    rgba(48, 126, 201, 1) 81%
-  );
-  background: linear-gradient(
-    166deg,
-    rgba(217, 49, 183, 1) 6%,
-    rgba(48, 126, 201, 1) 81%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d931b7",endColorstr="#307ec9",GradientType=1);
   color: #fff;
+  background: linear-gradient(90deg, #d19a23 0%, #1ea4a6 100%);
 }
 
 .description {
@@ -373,7 +335,7 @@ h2 {
 .footer {
   display: block;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #333;
   color: #fff;
